@@ -86,9 +86,9 @@ config_after_install() {
     echo -e "${yellow}出于安全考虑，安装/更新完成后需要强制修改端口与账户密码${plain}"
     config_confirm=y
     if [[ x"${config_confirm}" == x"y" || x"${config_confirm}" == x"Y" ]]; then
-        config_account=laoliu
+        config_account=666
         echo -e "${yellow}您的账户名将设定为:${config_account}${plain}"
-        config_password=laoliu
+        config_password=666
         echo -e "${yellow}您的账户密码将设定为:${config_password}${plain}"
         config_port=6666
         echo -e "${yellow}您的面板访问端口将设定为:${config_port}${plain}"
