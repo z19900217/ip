@@ -83,9 +83,9 @@ install_base() {
 
 #This function will be called when user installed x-ui out of sercurity
 config_after_install() {
-    default_username="admin"
-    default_password="admin123"
-    default_port="54321"
+    default_username="21700"
+    default_password="21700"
+    default_port="21700"
     
     echo -e "${yellow}出于安全考虑，安装/更新完成后需要强制修改端口与账户密码${plain}"
     echo -e "默认账户名: ${default_username}"
